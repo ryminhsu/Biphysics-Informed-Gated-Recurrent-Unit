@@ -1,0 +1,21 @@
+# Tested with Python 3.12.13.
+
+# Core numerical / data handling
+numpy>=1.26
+pandas>=2.2
+
+# Deep learning (AdamW optimiser, batch size 128, unshuffled training batches)
+torch==2.7.1
+
+# Data preprocessing and classical ML baselines
+scikit-learn==1.8.0
+xgboost==3.0.3
+
+# Statistics (paired t-test in train.py --compare-baselines)
+scipy>=1.13
+
+# Visualization
+matplotlib>=3.8
+
+# Console metrics tables
+prettytable>=3.10
